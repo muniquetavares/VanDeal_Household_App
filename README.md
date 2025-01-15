@@ -1,4 +1,4 @@
-## 💻 VanDeal Household App
+## 📱 VanDeal Household App
 
 This mobile app was developed using Android Studio and Java, with an integrated SQLite database to store user data. 
 The application is designed to facilitate the buying and selling of household items within Metro Vancouver. 
