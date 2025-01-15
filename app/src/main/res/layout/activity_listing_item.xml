@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListingItemActivity">
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/list_item_scrollview"
+        app:layout_constraintBottom_toTopOf="@+id/btnListingBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/edtItemtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:autofillHints=""
+                android:hint="@string/enter_item_tittle"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtItemtitle"
+                android:autofillHints=""
+                android:hint="@string/item_description"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextDescription"
+                android:autofillHints=""
+                android:hint="@string/enter_price"
+                android:inputType="numberDecimal"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextPrice"
+                android:autofillHints=""
+                android:hint="@string/txtPickupAddress"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinnerCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextLocation"
+                android:entries="@array/categories"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/textViewSellOrRent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerCategory"
+                android:text="@string/type_service"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupSellShare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewSellOrRent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButtonSell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item_sell"
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/item_share"
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnAddImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGroupSellShare"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_input"
+                android:backgroundTint="#03A9F4"
+                android:drawableStart="@drawable/baseline_add_a_photo_24"
+                android:padding="10dp"
+                android:text="@string/addImage"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/btnAddImage"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/txLogo" />
+
+            <Button
+                android:id="@+id/btnList"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_input"
+                android:backgroundTint="#4CAF50"
+                android:drawableStart="@drawable/baseline_done_24"
+                android:padding="10dp"
+                android:text="@string/listButton"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnListingBack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_input"
+        android:backgroundTint="#CFCFCF"
+        android:drawableStart="@drawable/baseline_arrow_back_24"
+        android:padding="10dp"
+        android:text="@string/btnCancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

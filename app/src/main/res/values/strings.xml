@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">VanDeal Household</string>
+    <string name="txLogo">Logo Picture</string>
+    <string name="txWelcome">Welcome to VanDeal HouseHold</string>
+    <string name="txDescription">Sell and Buy your item</string>
+    <string name="btLogin">Login</string>
+    <string name="btRegister">Register</string>
+    <string name="txLoginDesc"><b><font><a>Sign in</a></font></b></string>
+    <string name="edEmail">Email</string>
+    <string name="edPassword">Password</string>
+    <string name="txHousehold">Household Items Picture</string>
+    <string name="txForgotPassword">Forgot Password?</string>
+    <string name="txRegisterDesc">Create your Account</string>
+    <string name="edName">Full Name</string>
+    <string name="edAddress">Address</string>
+    <string name="edZipCode">Zip Code</string>
+    <string name="edPhone">Phone Number</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be > 5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="homeTitle">Welcome to VanDeal Household</string>
+    <string name="txtfeaturedItems">Featured Items</string>
+    <string name="txtorderManagement">Order Management</string>
+    <string name="btnBuyAnItem">Buy an Item</string>
+    <string name="btnSellAnItem">Sell an Item</string>
+    <string name="btnViewEditOrderDetails">View/Edit Order Details</string>
+    <string name="btnViewOrderStatus">View Order Status</string>
+    <string name="btnViewOrderHistory">View Order History</string>
+    <string name="btnLogout">Log out</string>
+    <string name="imgProfileDescription">Profile Avatar</string>
+    <string name="tvUsername">Username</string>
+    <string name="txtUserEmail">username@email.com</string>
+    <string name="buyingTitle">Buy an item</string>
+    <string name="searchHint">Search for an item</string>
+    <string name="imgProductDescription">Product Image</string>
+    <string name="txtProductName">Product Name: </string>
+    <string name="btnSelect">Select</string>
+    <string name="txtPrice">Price</string>
+    <string name="reg_text">Don\'t have an account?</string>
+    <string name="buyer">Buyer</string>
+    <string name="seller">Seller</string>
+    <string name="choose_portal">What would you like to do</string>
+    <string name="edUsername">Username</string>
+    <string name="txtCity">Select City</string>
+    <string-array name="cities">
+        <item>Vancouver</item>
+        <item>Burnaby</item>
+        <item>Coquitlam</item>
+        <item>Delta</item>
+        <item>Langley</item>
+        <item>Maple Ridge</item>
+        <item>New Westminster</item>
+        <item>North Vancouver</item>
+        <item>Pitt Meadows</item>
+        <item>Port Moody</item>
+        <item>Richmond</item>
+        <item>Surrey</item>
+    </string-array>
+
+
+    <string name="Test">Go to Testing Page</string>
+    <string name="BuyingPage">Buying Page</string>
+    <string name="HomePage">Home Page</string>
+    <string name="LoginPage">Login Page</string>
+    <string name="MainPage">Main Page</string>
+    <string name="RegisterPage">Register Page</string>
+    <string name="UserSellerPage">User or Seller Page</string>
+    <string name="txtSignUp">Sign up</string>
+    <string name="list_item_scrollview">Scroll View</string>
+    <string name="enter_item_tittle">Enter Item Title</string>
+    <string name="item_description">Description</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="type_service">Type Of Service</string>
+    <string name="item_sell">Sell</string>
+    <string name="item_share">Share</string>
+    <string-array name="categories">
+        <item>Vehicle</item>
+        <item>Appliance</item>
+        <item>Clothing</item>
+        <item>Electronic</item>
+        <item>Toys Game</item>
+        <item>Other</item>
+    </string-array>
+    <string name="addImage">Add Image</string>
+    <string name="listButton">List</string>
+    <string name="txtOrderID">Order ID:</string>
+    <string name="txtItemName">Item Name:</string>
+    <string name="txtOrderDate">Order Date:</string>
+    <string name="txtStatus">Status:</string>
+    <string name="btnView">Cancel Order</string>
+    <string name="btnEdit">Edit</string>
+    <string name="txtOrderDetail">Order Details</string>
+    <string name="txtShippingAddress">Shipping Address:</string>
+
+    <string name="btnEditOrder">Edit Order</string>
+    <string name="txtOriginalPrice">Original Price:</string>
+    <string name="txtDiscountPrice">Discount Price:</string>
+    <string name="txtSellerInformation">Seller Information:</string>
+    <string name="btnPlaceOrder">Place Order</string>
+    <string name="btnBack">Back</string>
+    <string name="edit_button">Edit</string>
+    <string name="edit_title">Edit Title</string>
+    <string name="txtEditOrder">Edit Order</string>
+    <string name="btnSaveEdit">Save Edit</string>
+    <string name="todo">TODO</string>
+    <string name="txtProductDetails">Product Details</string>
+    <string name="txtEditShippingAddress">Edit Shipping Address</string>
+    <string name="txtPickupAddress">Pick-up Address</string>
+    <string name="txtPickup">Pick up</string>
+    <string name="txtDelivery">Delivery</string>
+    <string name="btnAddToCart">Add to Cart</string>
+    <string name="txtCart">Cart</string>
+    <string name="txtYourItems">Your Items</string>
+    <string name="btnRemove">Remove Item</string>
+    <string name="txtPayment">Payment Information</string>
+    <string name="txtCardInfo">Credit/Debit Card Information</string>
+    <string name="edCardNum">Card Number</string>
+    <string name="edCVV">CVV</string>
+    <string name="edExpDate">MM/YY</string>
+    <string name="edNameOnCard">Name on Card</string>
+    <string name="btnCheckOut">Check Out</string>
+    <string name="txtPaymentProcessed">Your payment has been processed. \n Thank you!</string>
+    <string name="btnReturnHome">Return To\nHome Page</string>
+    <string name="btnEditProfile">View/Edit Profile</string>
+    <string name="btnContinueShopping">Continue Shopping</string>
+    <string-array name="txtDeliveryOpt">
+        <item>Choose Delivery Option</item>
+        <item>Delivery</item>
+        <item>Pick Up</item>
+    </string-array>
+    <string-array name="sort">
+        <item>Most Recent</item>
+        <item>Price</item>
+        <item>Distance</item>
+    </string-array>
+    <string name="btnProfileUpdate">Update Profile</string>
+    <string name="txtUpdateYourAccount">Update Your Account</string>
+    <string name="btnViewDetail">View Detail Order</string>
+    <string name="btnBackward">Back</string>
+    <string name="txtTypeOfService">Pick-Up/Delivery:</string>
+    <string name="btnViewSellingItem">View Selling Item</string>
+    <string name="txtSellingItems">Selling Items</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnShoppingCart">Shopping Cart</string>
+</resources>
